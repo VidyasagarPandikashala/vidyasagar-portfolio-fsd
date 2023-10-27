@@ -35,36 +35,36 @@
 }
 @font-face {
   font-family: "Brandon Grotesque";
-  src: url("/src/fonts/Brandon_Grotesque/Brandon_bld.otf") format("opentype");
+  src: url("src/fonts/Brandon_Grotesque/Brandon_bld.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
-  src: url("/src/fonts/Brandon_Grotesque/Brandon_med.otf") format("opentype");
+  src: url("src/fonts/Brandon_Grotesque/Brandon_med.otf") format("opentype");
   font-weight: medium;
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
-  src: url("/src/fonts/Brandon_Grotesque/Brandon_reg.otf") format("opentype");
+  src: url("src/fonts/Brandon_Grotesque/Brandon_reg.otf") format("opentype");
   font-weight: regular;
 }
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/src/fonts/Proxima_Nova/Proxima/Nova/Bold.otf") format("opentype");
+  src: url("src/fonts/Proxima_Nova/Proxima/Nova/Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/src/fonts/Proxima_Nova/ProximaNova-Regular.otf") format("opentype");
+  src: url("src/fonts/Proxima_Nova/ProximaNova-Regular.otf") format("opentype");
   font-weight: regular;
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/src/fonts/Proxima_Nova/Proxima Nova Alt Light.otf")
+  src: url("src/fonts/Proxima_Nova/Proxima Nova Alt Light.otf")
     format("opentype");
   font-weight: thin;
 }
