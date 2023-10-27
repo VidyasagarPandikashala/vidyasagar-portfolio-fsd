@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio" />
+    <meta name="author" content="Vidyasagar Pandikashala" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vidyasagar Pandikashala Portfolio</title>
+  </head>
+  <body>
+    <div>
+      <nav class="nav-bar">
+        <ul class="lists">
+          <div>
+            <li class="list | home_tab">
+              <a href="/src/component/portfolio_home.html">HOME</a>
+            </li>
+            <div class="nav_marker"></div>
+          </div>
+          <div>
+            <li class="list | aboutme_tab">
+              <a href="/src/component/portfolio_aboutMe.html">ABOUT ME</a>
+            </li>
+          </div>
+          <div>
+            <li class="list | projects_tab">
+              <a href="#project_marker">PROJECTS</a>
+            </li>
+          </div>
+          <div>
+            <li class="list | certif_tab"><a a href="/src/component/portfolio_certificates.html">CERTIFICATES</a></li>
+          </div>
+          <div>
+            <li class="list | resume_tab"><a>RESUME</a></li>
+          </div>
+          <div>
+            <li class="list | contactme_tab"><a>CONTACT ME</a></li>
+          </div>
+        </ul>
+      </nav>
+
+      <main class="main_section">
+        <div class="main_section_container">
+          <div class="image_container"></div>
+          <section class="summary_section">
+            <div>
+              <h1 class="name | heading_1">Vidyasagar Pandikashala</h1>
+            </div>
+            <div>
+              <h3 class="specialization | heading_3">
+                Full-Stack Development | Product Management
+              </h3>
+            </div>
+            <div class="summary_container">
+              <p class="summary | para_16">
+                A passionate professional with a profound interest in Full-Stack
+                Development, continuously seeking knowledge and looking forward
+                to contributing the expertise and skills that I have acquired
+                for the growth and development of the organization.
+              </p>
+            </div>
+            <div class="developer_social_platform">
+              <div>
+                <a
+                  href="https://github.com/VidyasagarPandikashala"
+                  target="_blank"
+                  ><img src="/src/photos/git.png" alt="git"
+                /></a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/vidyasagarpandikashala/"
+                  target="_blank"
+                  ><img src="/src/photos/linkedIn.png" alt="linkedIn"
+                /></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="project_section">
+          <div class="text_container" id="project_marker">
+            <div class="personal_project_text_container">
+              <p class="highlighter | para_32_bold">|</p>
+              <p class="personal_project | para_24_bold">PERSONAL PROJECTS</p>
+            </div>
+            <div class="personal_project_text_container">
+              <p class="highlighter | para_32_bold">|</p>
+              <p class="personal_project | para_24_bold">FSD PROJECTS</p>
+            </div>
+          </div>
+          <div
+            class="project_moviepremiere | tiltcard"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="0.5"
+            data-tilt-max="2.5"
+            data-tilt-speed="640"
+            data-tilt-perspective="720"
+          >
+            <div class="content_container">
+              <div class="project_title_container">
+                <h1 class="heading_1_32">MOVIE PREMIERE</h1>
+              </div>
+              <div class="project_summary_container">
+                <p class="para_24_regular">
+                  Well-versed movie database for both mobile and desktop also
+                  provides both backend and front end support
+                </p>
+              </div>
+              <div class="btn_wrapper">
+                <button class="btn"><a href="/src/component/portfolio_projects_moviepremiere.html">Detail</a></button
+                ><button class="btn"><a>Website</a></button
+                ><button class="btn">Git</button>
+              </div>
+            </div>
+            <div class="image_wrapper">
+              <div>
+                <img
+                  src="/src/photos/iPhone 15 Pro.png"
+                  alt="mobile_mockup_pics"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="project_resumebuilder"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="0.5"
+            data-tilt-max="2"
+            data-tilt-speed="600"
+            data-tilt-perspective="840"
+          ></div>
+
+     
+        </section>
+        <div class="icon-carousal">
+          <div class="icon">
+            <img src="/src/photos/spingboot.png" alt="springboot" />
+          </div>
+          <div class="icon"><img src="/src/photos/js.png" alt="javascript" /></div>
+          <div class="icon"><img src="/src/photos/react.png" alt="react" /></div>
+          <div class="icon"><img src="/src/photos/docker.png" alt="docker" /></div>
+        </div>
+         
+        </div>
+
+        <div class="certificates_section">
+          <div><img src="" alt=""></div>
+          <div><img src="" alt=""></div>
+
+        </div>
+      </main>
+    </div>
+    <script src="/src/component/vanilatilt.js"></script>
+  </body>
+</html>
