@@ -463,7 +463,7 @@ select {
 .laptop_img {
   position: absolute;
   top: 264px;
-  right: 536px;
+  right: 480px;
 }
 .iPhone_img {
   position: absolute;
@@ -572,7 +572,9 @@ select {
   margin-top: 32px;
   margin-left: 560px;
 }
-
+.perfomance_mobile {
+  display: none;
+}
 .footer {
   width: 100%;
   height: 5rem;

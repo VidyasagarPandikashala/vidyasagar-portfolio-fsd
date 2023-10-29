@@ -289,13 +289,13 @@ a:visited {
   grid-template-columns: 20rem 20rem;
   gap: 4rem;
   margin-inline: 216px;
-  margin-block: 6rem;
+  margin-block: 4rem;
   align-items: center;
   justify-content: center;
 }
 .btn {
   padding-inline: 0.45rem;
-  height: 80px;
+  height: 96px;
   border: solid 0.25px var(--secondary-text-color);
   box-shadow: 2px 3px 4px 6px rgba(149, 154, 198, 0.7);
   border-radius: 8px;

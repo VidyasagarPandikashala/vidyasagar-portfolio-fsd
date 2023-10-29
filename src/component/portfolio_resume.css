@@ -418,7 +418,14 @@ a:visited {
     margin-inline: 32px;
     align-items: center;
     justify-content: center;
-    padding-block: 2rem;
+    padding-block: 1rem;
+  }
+  .resume {
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    height: 360px;
+    object-fit: contain;
   }
 
   .download_link_wrapper {
@@ -426,7 +433,7 @@ a:visited {
     grid-template-columns: 10rem;
     gap: 1rem;
     margin-inline: 32px;
-    margin-block: 2rem;
+    margin-block: 1rem;
     align-items: center;
     justify-content: center;
   }
