@@ -329,6 +329,7 @@ select {
   background-color: var(--support-color-yellow);
   justify-content: space-around;
 }
+
 .content_container {
   display: flex;
   width: 50%;
@@ -366,6 +367,14 @@ select {
 .btn:hover {
   background-color: var(--primary-background-color);
   color: var(--secondary-text-color);
+}
+
+.website_comingsoon {
+  display: flex;
+  font-size: 8px;
+  font-style: italic;
+  text-align: center;
+  align-self: center;
 }
 .icon-carousal {
   width: calc(max(1920px, 100%) * 1);
